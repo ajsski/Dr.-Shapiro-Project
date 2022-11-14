@@ -1,0 +1,120 @@
+.parent {
+	display: grid;
+	grid-template: auto 1fr auto / auto 1fr auto;
+	grid-template-columns: minmax(150px, 25%) 1fr minmax(150px, 25%);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: rgb(255,255,255);
+  	}
+  
+/* a wrapper around all the actual page content
+this will be centered on the page*/
+#wrapper {
+    margin: 3px auto;
+    position: relative;
+    width: calc(100% - 20px);
+    max-width: 1000px;
+    background: rgba(255,255,255,0.75);
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.25);
+}
+ 
+#header {
+  	background-color: #006AA8;
+  	color: #FFF;
+	padding: 1.6rem;
+    grid-column: 1 / 4;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center;
+	background-repeat: no-repeat;
+    }
+
+#left-side {
+    grid-column: 1 / 2;
+    background-color: rgb(255,255,255);
+	color: rgb(51,51,51);
+	font-size: 1em;
+	text-align: left;
+	line-height: 20px;
+	text-transform: uppercase;
+	}
+
+nav ul 
+	{list-style-type: none;	}	
+nav a {
+	text-decoration: none;
+	color: rgb(51,51,51);
+	display: block;
+	}
+	
+nav a:visited {color: rgb(51,51,51);}
+nav a:hover {color: #006AA8; font-weight: bolder;}
+nav a:link {color: rgb(51,51,51);}
+
+nav a.active  {
+  background-color: #006AAB;
+	color: white;
+	padding: 10px;
+	width: 105px;
+}
+//*
+nav a:hover:not(.active) {
+  background-color: none;
+  color: rgb(51,51,51);
+}
+*//
+
+#main  {
+    background-color: rgb(255,255,255);
+    grid-column: 2 / 3;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size:1em;
+	text-align: left;
+	color: rgb(51,51,51);
+	}
+		
+.subtext {
+	font-size: 1.5em;
+	}
+	
+.subtext3 {
+	font-size: 1.2em;
+	font-style: italic;
+	}
+	
+.copy {
+	font-size: 1em;
+	color: rgb(51,51,51);
+}
+		
+#right-side {
+    background-color: rgb(255,255,255);
+	grid-column: 3 / 4;
+	margin: 0 auto;
+    padding: 10px;
+	}
+
+.aside .aspect-ratio {
+	height: 100%;
+	width: 100%;	
+	padding: 20px 0 0 30px;
+	font-size: 85%;
+}
+
+.aside .aspect-ratio img {
+	width: 60%;
+    height: auto;
+	float:none;}
+    	
+#footer {
+  	border-top: 10px #006AA8 solid;
+    grid-column: 1 / 4;
+	padding: 10px 0 10px 0;
+	font-size: .8em;
+	font-style: italic;
+	color: rgb(51,51,51);
+	text-align: center;
+	}
+	
+

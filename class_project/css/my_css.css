@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/*my css Document*/
+
+* 
+{box-sizing: border-box;
+	}
+body {min-width: 600px;}
+
+#wrapper {padding: 1em 1.5em 0;
+          margin: 0 auto;
+          width: 80%;
+          border: 4px solid black;}
+
+.container {width: 80%;
+	align-content: center;
+	padding: 40px;
+	text-align: center;
+	}
+
+.student_name, .open_headline {font-family: Cambria, Times, "Times New Roman", "serif"; 
+	font-size: 24pt; 
+	color: darkblue;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial-Black, Helvetica-Black, "sans-serif";
+	}
+#course_section, #category_section {font-family: Cambria, Times, "Times New Roman", "serif"; 
+	font-size: 17pt; 
+	margin: 30px 0px;
+	padding: 30px 0px;
+	text-align: cen
+	color: #FCFCFC; 
+	background-color: #000000;
+	}
+#ledger
+	{border: solid 2px darkgray;
+	padding-bottom: 30px;	
+	margin-bottom: 30px;
+	}	
+
+.folder_name {font-family: Verdana, Helvetica, "sans-serif"; 
+	font-size: 12pt; 
+	background-color: rgb(219,219,219);
+	color: darkblue; 
+	padding:10px;
+	border: solid 10px rgba(219,219,219,1.00)
+	}
+.folder_name2 {font-family: Verdana, Helvetica, "sans-serif"; 
+	font-size: 12pt; 
+	color: darkblue; 
+	padding:10px;
+	}
+/*navigation bar for class project*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+footer {
+	padding: 8px; 
+	text-align: center;
+	background-color: darkblue;
+	color: white;
+	font-family: Arial, Helvetica, "sans-serif";
+	}	
+footer a{color: white; 	text-transform: uppercase; 	font-family: Arial-Black, Helvetica-Black, "sans-serif";
+}
+	
+
+
+	
+	dt, dd, li, fieldset {
+		font-family: Arial, Helvetica, 'sans-serif';
+		padding: 20px 0px;
+	
+	}	
+
+/* order list for initial_interview_project*/
+ol {
+  background: #ff9999;
+  padding: 20px;
+	margin: 5px 0px;
+	list-style-type: none;
+}
+
+ol li {
+  background: #ffe5e5;
+  padding: 10px;
+  margin-left: 35px;
+}
+
+/*form for Project Questionnaire form*/
+form
+	{background-color: #EFEFEF;
+	padding: 10px;
+	text-align: left;}
+	
+legend 	
+	{font-family: Helvetica, Arial, "sans-serif";
+	text-emphasis: bold;
+	text-transform: uppercase;}
+		
+label
+	{width: 80%;
+	text-align: left;
+	margin-top: 10px;
+	padding: 10px;}	
+
+
+
+textarea, input
+ 	{text-align: left;
+	width: 90%;
+    margin: 1em 3em;
+	line-height: 2.25em;}	
+
+
+fieldset 
+	{margin-bottom: 2em;
+	padding: 0;}
+
+#comments {align-content: stretch}
+
+
+#submit, #reset {
+	border-radius: 8px;
+	border-color: darkblue;
+	border-width: .3em;
+	font-size: 1em;
+	font-weight:bold;
+	width: auto;
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	align-content: auto;
+	text-transform: uppercase;
+}	
+
+/*wireframe images*/
+#home, #chapters
+	{background-image: url("../class_project/img/wireframe_home.jpg")
+	background-size: auto; 
+
+}	
+
+
+

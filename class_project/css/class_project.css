@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*my css Document*/
+
+
+.container {width: 80%;
+	align-content: center;
+	padding: 40px;
+	text-align: center;
+	}
+.student_name {font-family: Cambria, Times, "Times New Roman", "serif"; 
+	font-size: 24pt; 
+	color: #7F0103;
+	}
+#course_section {font-family: Cambria, Times, "Times New Roman", "serif"; 
+	font-size: 17pt; 
+	margin: 30px 0px;
+	padding: 30px 0px;
+	color: #FCFCFC; 
+	background-color: #000000;
+	}
+#ledger
+	{border: dotted 2px #000;
+	}	
+
+.folder_name {font-family: Verdana, Helvetica, "sans-serif"; 
+	font-size: 12pt; 
+	background-color: rgb(219,219,219);
+	color: blue; 
+	padding:10px;
+	border: solid 10px rgba(219,219,219,1.00)
+	}
+.folder_name2 {font-family: Verdana, Helvetica, "sans-serif"; 
+	font-size: 12pt; 
+	color: blue; 
+	padding:10px;
+	}
+footer
+	{padding: 20px;
+	font-family: Cambria, Times, "Times New Roman", "serif";
+	color: #FCFCFC; 
+	background-color: #000000;
+	text-align: center;
+	}	
+footer a
+	{padding: 20px;
+	font-family:"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:bisque;
+	text-transform: uppercase;
+	}	
+
+dt, dd, li {
+		font-family: Arial, Helvetica, 'sans-serif';
+		padding: 20px 0px;
+	
+	}	
+	
+ol {
+  background: #ff9999;
+  padding: 20px;
+	margin: 5px 0px;
+	list-style-type: none;
+}
+
+
+
+ol li {
+  background: #ffe5e5;
+  padding: 10px;
+  margin-left: 35px;
+}
+
+
